@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2DAD3;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_name {
+
+    margin-bottom: 50px;
+    color: #1A2A2F;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.style_text {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.energy {
+    color: #1F2E23;
+    margin-bottom: 50px;
+}
+
+
+.hamster {
+    background-color: #1F2E23;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #263b2c;
+    cursor: pointer;
+    padding: 15px;
+    transition: transform 0.1s ease;
+
+}
+
+.hamster:active {
+    transform: scale(0.95);
+}
+
+.hamster img {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.desc {
+    font-size: 12px;
+    color: #1A2A2F;
+    font-weight: bold;
+}
+
+.my-coin {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
