@@ -79,3 +79,40 @@ reset.onclick = () => {
   second = 0;
   seconds.textContent = second;
 };
+
+const getDataCharacters = () => {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', '../data/characters.json');
+  xhr.setRequestHeader('Content-type', 'application/json');
+  xhr.send();
+  xhr.onload = () => {
+    const data = JSON.parse(xhr.response);
+
+    document.querySelector('.characters-list').innerHTML = data
+      .map(
+        (character) =>
+          `
+    <div class="character-card">
+    <img class="character-photo" src="${character.face}" alt="character_image">
+    <p class="character-info">${character.firstname} ${character.lastname}</p>
+    <p class="character-info">age: ${character.age}</p>
+    <p class="character-info">rank: ${character.title}</p>
+  </div>`,
+      )
+      .join('');
+  };
+};
+getDataCharacters();
+
+const getData = () => {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', '../data/any.json');
+  xhr.setRequestHeader('Content-type', 'application/json');
+  xhr.send();
+
+  xhr.onload = () => {
+    const data = JSON.parse(xhr.response);
+    console.log(data);
+  };
+};
+getData();

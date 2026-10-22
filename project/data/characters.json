@@ -1,0 +1,87 @@
+[
+  {
+    "firstname": "Jon",
+    "lastname": "Snow",
+    "age": 21,
+    "title": "Lord commandor",
+    "face": "https://i.pinimg.com/736x/94/e7/83/94e78300e9e354e0d559f091326b5612.jpg"
+  },
+  {
+    "firstname": "Tyrion",
+    "lastname": "Lannister",
+    "age": 27,
+    "title": "Hand of the King",
+    "face": "https://i.pinimg.com/736x/de/bf/8d/debf8dabfd8b568ecc628b6ba3819026.jpg"
+  },
+  {
+    "firstname": "Jaime",
+    "lastname": "Lannister",
+    "age": 43,
+    "title": "Lord Commander of the Kingsguard",
+    "face": "https://7kingdoms.ru/wp-content/uploads/2018/10/jaime_last_costume_02-300x450.jpg"
+  },
+  {
+    "firstname": "Jason",
+    "lastname": "Statham",
+    "age": 42,
+    "title": "Professional Assassin",
+    "face": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_c3bSvvlMrRvC44drL3RhgDwu74wqS5amyfof88bAXA&s"
+  },
+  {
+    "firstname": "Leon",
+    "lastname": "Kennedy",
+    "age": 27,
+    "title": "DSO Federal Agent",
+    "face": "https://i.pinimg.com/736x/2e/84/64/2e8464b4ccef0958e9fe77b5ed2cf5ce.jpg"
+  },
+  {
+    "firstname": "Tony",
+    "lastname": "Stark",
+    "age": 49,
+    "title": "Iron Man",
+    "face": "https://thumb.wikimedia.org/wikipedia/ru/thumb/f/f2/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg/330px-Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "firstname": "Thor",
+    "lastname": "Odinson",
+    "age": 1500,
+    "title": "God of Thunder",
+    "face": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcw52Xr4k3UKaRvkrRRc9jal4a5bjApRNUWswc6EQlHw&s=10"
+  },
+  {
+    "firstname": "Sherlock",
+    "lastname": "Holmes",
+    "age": 40,
+    "title": "Consulting Detective",
+    "face": "https://img.championat.com/news/big/a/p/robert-dauni-mladshij-vsyo-eschyo-gotov-vernutsya-k-sherloku-holmsu-3_16820951782067319015.jpg"
+  },
+
+  {
+    "firstname": "Geralt",
+    "lastname": "of Rivia",
+    "age": 100,
+    "title": "Witcher of the Wolf School",
+    "face": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKd_U9z9Y2tcDHl0TgJFM8RBVz1lefr2_bqLlNDOTUOA&s=10"
+  },
+  {
+    "firstname": "Shingen",
+    "lastname": "Yamazaki ",
+    "age": 32,
+    "title": "Tora Oni",
+    "face": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTcq2AEWJHTc0wCPo8AyuxZgFaD0JE2Ii-4aOKOjBsQ&s=10"
+  },
+  {
+    "firstname": "Escanor",
+    "lastname": "Lion Sin",
+    "age": 40,
+    "title": "Lion's Sin of Pride",
+    "face": "https://preview.redd.it/escanor-lions-sin-of-pride-v0-x6sm4y0nybs31.jpg?width=640&crop=smart&auto=webp&s=58090d23c65e2472613feb9e66ffe3ced0a39c2c"
+  },
+  {
+    "firstname": "Olgierd",
+    "lastname": "von Everec",
+    "age": 36,
+    "title": "Ataman (Wild Ones)",
+    "face": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dxk_ccIDvy0MJjkEUGy2erbUqXN38i4zZVV2KRK6boVsMQx-gLGFug37&s=10"
+  }
+]

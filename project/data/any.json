@@ -1,0 +1,16 @@
+{
+  "firstname": "Ivan",
+  "lastname": "Parchaev",
+  "age": 18,
+  "isMarried": false,
+  "likeMoney": true,
+  "study": true,
+  "pet": null,
+  "likeAnimal": ["dog", "cat"],
+  "likeGameInJanre": {
+    "darkSouls": "Elden Ring",
+    "actionAdventure": "Sekiro",
+    "fantasy": "The Wincher",
+    "coop": "V rising"
+  }
+}
