@@ -25,7 +25,7 @@ const handleScroll = () => {
   let scrollY = Math.ceil(window.scrollY + window.innerHeight);
   let heightEnd = document.documentElement.scrollHeight;
 
-  console.log(scrollY, heightEnd);
+  // console.log(scrollY, heightEnd);
 
   if (scrollY >= heightEnd - 10) {
     openModal();
