@@ -1,0 +1,9 @@
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.target_color_block {
+  background-color: aqua;
+}
