@@ -1,0 +1,33 @@
+.main {
+  margin-top: 100px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.card {
+  padding: 25px;
+  background: black;
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+}
+
+.card-title {
+  color: var(--orange);
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.card-body {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-id {
+  color: var(--orange);
+}
