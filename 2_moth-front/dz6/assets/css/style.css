@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+
+    width: 550px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+.card-nature {
+    background-image: url('/assets/img/travel-card.webp');
+}
+
+.card-water {
+    background-image: url('/assets/img/nature-card.webp');
+}
+
+.card-snow {
+    background-image: url('/assets/img/snow-card.webp');
+}
+
+.card-forest {
+    background-image: url('/assets/img/tree-card.webp');
+}
+
+.card-sun {
+    background-image: url('/assets/img/sun-card.webp');
+}
+
+.card-badge {
+    position: absolute;
+    bottom: 16px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+}
+
+.card__icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.card__icon {
+    width: 24px;
+    height: 24px;
+    fill: #ee5253;
+    object-fit: contain;
+}
+
+.card-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+.card-collapse {
+    width: 80px;
+}
+
+.card.card-collapse .card-text {
+    opacity: 0;
+    visibility: hidden;
+}
