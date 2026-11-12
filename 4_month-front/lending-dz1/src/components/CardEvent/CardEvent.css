@@ -1,0 +1,129 @@
+.events {
+  padding-top: 60px;
+  padding-bottom: 163px;
+}
+
+.events h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.events .subtitle {
+  max-width: 421px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+}
+
+.events__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.events__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  width: 368px;
+  height: 390px;
+  position: relative;
+}
+
+.events__card-image {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 368px;
+  height: 240px;
+  margin: 0 auto;
+}
+.events__card:nth-child(1) .events__card-image {
+  background-image: url('/image/img/events1.webp');
+}
+
+.events__card:nth-child(2) .events__card-image {
+  background-image: url('/image/img/events2.webp');
+}
+
+.events__card:nth-child(3) .events__card-image {
+  background-image: url('/image/img/events3.webp');
+}
+.events__card:nth-child(1) {
+  background-color: #88b1eb;
+}
+
+.events__card:nth-child(2) {
+  background-color: #a1d49c;
+}
+
+.events__card:nth-child(3) {
+  background-color: #ec7f7f;
+}
+.events__card-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65px;
+  height: 62px;
+  padding: 8px 12px;
+  text-align: center;
+}
+.events__card-date span {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 41px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.events__card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 23px;
+}
+.events__card-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222222;
+}
+.events__card-info {
+  display: flex;
+  gap: 29px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+.events__card-info span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+.events__card-info p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+.events__card-info span::before {
+  content: url('/image/svg/clock.svg');
+  margin-right: 8px;
+}
+.events__card-info p::before {
+  content: url('/image/svg/local.svg');
+  margin-right: 8px;
+}
