@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeN86XFoLrsch0idbeYYtPI584Bm-70VCFh-XpH5VpAA&s=10",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop"
+    ],
+    "name": "t-shirt",
+    "color": "black",
+    "desc": "simple T-shirt"
+  },
+  {
+    "id": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&auto=format&fit=crop"
+    ],
+    "name": "hoodie",
+    "color": "charcoal",
+    "desc": "warm fleece pullover hoodie"
+  },
+  {
+    "id": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&auto=format&fit=crop"
+    ],
+    "name": "denim jeans",
+    "color": "indigo",
+    "desc": "straight fit blue jeans"
+  },
+  {
+    "id": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&auto=format&fit=crop"
+    ],
+    "name": "overshirt",
+    "color": "navy",
+    "desc": "button-down casual shirt"
+  }
+]
