@@ -1,0 +1,9 @@
+.input__search {
+  max-width: 350px;
+}
+
+.error {
+  margin-top: 10px;
+  color: #e74c3c;
+  font-size: 14px;
+}
